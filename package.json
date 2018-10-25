@@ -1,0 +1,30 @@
+{
+  "name": "lsw14-testWebAPI",
+  "version": "1.0.0",
+  "description": "Lambda School Week 14: Testing IV Demo from Training Kit",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timh1203/lsw14-testWebAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timh1203/lsw14-testWebAPI/issues"
+  },
+  "homepage": "https://github.com/timh1203/lsw14-testWebAPI#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "supertest": "^3.3.0"
+  },
+  "jest": {
+    "testEnvirnoment": "node"
+  }
+}
